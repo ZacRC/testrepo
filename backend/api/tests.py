@@ -24,7 +24,8 @@ class AuthAPITestCase(TestCase):
             'password': self.user_data['password']
         })
         self.assertEqual(response.status_code, status.HTTP_200_OK)
-        self.assertIn('user', response.data)
+        self.assertIn('username', response.data)
+        self.assertEqual(response.data['username'], self.user_data['username'])
 
     def test_logout(self):
         User.objects.create_user(**self.user_data)
