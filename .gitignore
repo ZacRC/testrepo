@@ -1,0 +1,6 @@
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/db.sqlite3
+my-nextjs-app/node_modules/
+my-nextjs-app/.next/
