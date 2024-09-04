@@ -1,4 +1,4 @@
-from tests.backend.test_api import AuthAPITestCase
+from django.test import TestCase
 from django.contrib.auth.models import User
 from rest_framework.test import APIClient
 from rest_framework import status

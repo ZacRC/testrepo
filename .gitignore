@@ -4,3 +4,13 @@ backend/*.pyc
 backend/db.sqlite3
 my-nextjs-app/node_modules/
 my-nextjs-app/.next/
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Testing
+.pytest_cache/
+.coverage
